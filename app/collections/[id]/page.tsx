@@ -96,6 +96,11 @@ const collectionsData = {
   },
 }
 
+export function generateStaticParams() {
+  return Object.keys(collectionsData).map((id) => ({ id }));
+}
+
+
 interface CollectionPageProps {
   params: {
     id: string
