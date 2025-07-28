@@ -1,0 +1,5 @@
+{
+  "name": "your-worker-name",
+  "main": "src/index.ts",               // 👈 update this to your actual entry point
+  "compatibility_date": "2025-07-28"
+}
